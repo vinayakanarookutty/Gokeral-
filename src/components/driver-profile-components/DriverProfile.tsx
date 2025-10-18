@@ -49,7 +49,8 @@ export const DriverProfile = () => {
         }
       );
 
-      setDriverData(response.data);
+      setDriverData(response.data.userData);
+      console.log(response.data)
       setLoading(false);
       setTimeout(() => setFadeIn(true), 100);
     } catch (error) {

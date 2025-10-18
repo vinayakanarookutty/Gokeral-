@@ -74,7 +74,7 @@ const DriverLogin = () => {
                     "Welcome back!",
                 );
                 authUtils.setToken(data.token);
-
+                localStorage.setItem("token", data.token);
                 // Store user data if available
                 if (data.user) {
                     localStorage.setItem("user", JSON.stringify(data.user));

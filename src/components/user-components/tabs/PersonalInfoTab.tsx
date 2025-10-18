@@ -157,7 +157,7 @@ export const PersonalInfoTab = ({
         Personal Information
       </Title>
       <Paragraph className="text-gray-500 text-sm sm:text-base mb-6">
-        Update your personal details
+        Update your personal detailsss
       </Paragraph>
 
       <Skeleton loading={loading} active>
