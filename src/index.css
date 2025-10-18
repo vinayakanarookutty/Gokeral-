@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Route Modal Styles */
+.route-modal .ant-modal-body {
+  padding: 16px;
+}
+
+.route-modal .ant-modal-content {
+  border-radius: 12px;
+}
+
+/* Ensure map container has proper dimensions */
+.route-viewer-map {
+  min-height: 400px;
+  border-radius: 8px;
+}

@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Iceland&display=swap");
+
+.text-golden {
+  color: #d4af37;
+}
+
+.bg-golden {
+  background-color: #d4af37;
+}
+
+.hover:text-golden:hover {
+  color: #d4af37;
+}
+
+.hover:bg-golden:hover {
+  background-color: #d4af37;
+}
+
+.border-golden {
+  border-color: #d4af37;
+}
+
+.content-blur {
+  filter: blur(8px);
+  transition: filter 0.3s ease-in-out;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4af37;
+  border: 3px solid transparent;
+  background-clip: content-box;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b4941f;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+
+/* Custom AutoComplete Styling */
+/* .ant-select-selector {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  border: 1px solid #d4af37 !important;
+  height: 48px !important;
+  display: flex;
+  align-items: center;
+}
+
+.ant-select {
+  width: 100%;
+  max-width: 400px;
+}
+
+.ant-select-selection-search-input {
+  height: 46px !important;
+  color: white !important;
+}
+
+.ant-select-selection-placeholder,
+.ant-select-selection-item {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-family: Montserrat, sans-serif;
+}
+
+.ant-select:hover .ant-select-selector {
+  border-color: #b4941f !important;
+}
+
+.ant-select-focused .ant-select-selector {
+  border-color: #d4af37 !important;
+  box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.2) !important;
+}
+
+.ant-select-dropdown {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid #d4af37;
+}
+
+.ant-select-item {
+  color: white !important;
+  font-family: Montserrat, sans-serif;
+}
+
+.ant-select-item-option-active {
+  background-color: rgba(212, 175, 55, 0.1) !important;
+}
+
+.ant-select-item-option-selected {
+  background-color: rgba(212, 175, 55, 0.2) !important;
+} */
