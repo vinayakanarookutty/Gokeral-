@@ -12,7 +12,7 @@ import { Form, Input, Button, notification, Spin } from "antd";
 import { Link, useNavigate } from "react-router-dom";
 import backgroundImage from "../../assets/backg2.png";
 import axios, { AxiosError } from "axios";
-import { authUtils } from "../../utils/auth";
+
 
 interface RegisterFormData {
     name: string;

@@ -71,7 +71,7 @@ export const DriverProfile = () => {
     localStorage.removeItem("driverEmail"); // Updated to driverEmail
     localStorage.removeItem("userType");
     localStorage.removeItem("token");
-    window.location.href = "/login";
+    window.location.href = "/driverLogin";
   };
 
   useEffect(() => {
