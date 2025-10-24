@@ -200,7 +200,7 @@ export const BookingsTab = ({ loading: parentLoading }: BookingsTabProps) => {
               Accept
             </Button>
           )}
-          {["pending", "accepted"].includes(record.status) && (
+          {["pending"].includes(record.status) && (
             <Button
               type="primary"
               danger
@@ -210,6 +210,9 @@ export const BookingsTab = ({ loading: parentLoading }: BookingsTabProps) => {
             >
               Cancel
             </Button>
+          )}
+           {["accepted"].includes(record.status) && (
+          <></>
           )}
         </div>
       ),
