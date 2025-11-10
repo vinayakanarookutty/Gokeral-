@@ -1,8 +1,8 @@
+// src/routes/index.tsx
 import { createBrowserRouter } from "react-router-dom";
 import { routePaths } from "../config";
 
 import DriverLogin from "../pages/driverLogin";
-
 import Maps from "../pages/maps";
 import { UserLogin } from "../pages/user-pages/UserLogin";
 import { UserRegister } from "../pages/user-pages/UserRegister";
@@ -14,50 +14,24 @@ import { DriverProfile } from "../components/driver-profile-components/DriverPro
 import AboutPage from "../pages/about";
 import ContactPage from "../pages/contact";
 
+import Layout from "../components/Layout"; // Import Layout
+
 export const router = createBrowserRouter([
   {
-    path: routePaths.driverRegistration,
-    element: <DriverRegistration />,
+    path: "/",
+    element: <Layout />, // All routes go inside Layout
+    children: [
+      { path: routePaths.home, element: <HomePage /> },
+      { path: routePaths.driverRegistration, element: <DriverRegistration /> },
+      { path: routePaths.driverProfile, element: <DriverProfile /> },
+      { path: routePaths.driverLogin, element: <DriverLogin /> },
+      { path: routePaths.maps, element: <Maps /> },
+      { path: routePaths.userLogin, element: <UserLogin /> },
+      { path: routePaths.userRegister, element: <UserRegister /> },
+      { path: routePaths.userDashboard, element: <UserDashboard /> },
+      { path: routePaths.userProfile, element: <UserProfile /> },
+      { path: routePaths.about, element: <AboutPage /> },
+      { path: routePaths.contact, element: <ContactPage /> },
+    ],
   },
-  {
-    path: routePaths.home,
-    element: <HomePage />,
-  },
-  {
-    path: routePaths.driverProfile,
-    element: <DriverProfile />,
-  },
-  {
-    path: routePaths.driverLogin,
-    element: <DriverLogin />,
-  },
-  {
-    path: routePaths.maps,
-    element: <Maps />,
-  },
-  {
-    path: routePaths.userLogin,
-    element: <UserLogin />,
-  },
-  {
-    path: routePaths.userRegister,
-    element: <UserRegister />,
-  },
-  {
-    path: routePaths.userDashboard,
-    element: <UserDashboard />,
-  },
-  {
-    path: routePaths.userProfile,
-    element: <UserProfile />,
-  },
-  {
-    path: routePaths.about,
-    element: <AboutPage />,
-  }, {
-    
-    path: routePaths.contact,
-    element: <ContactPage />,
-  },
-  
 ]);
