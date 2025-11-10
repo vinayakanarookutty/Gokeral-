@@ -8,7 +8,6 @@ import { UserLogin } from "../pages/user-pages/UserLogin";
 import { UserRegister } from "../pages/user-pages/UserRegister";
 import { UserDashboard } from "../components/user-components/UserDashboard";
 import { UserProfile } from "../components/user-components/UserProfile";
-// import DriverProfile from "../pages/driverProfile";
 import DriverRegistration from "../pages/driverRegistration";
 import HomePage from "../pages/home/home";
 import { DriverProfile } from "../components/driver-profile-components/DriverProfile";

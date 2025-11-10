@@ -276,7 +276,7 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <div className="flex items-center space-x-2 mb-4">
+              <div className="flex items-center space-x-2 mb-4">  
                 <Car className="h-8 w-8 text-green-400" />
                 <span className="text-2xl font-bold">Kerala Rides</span>
               </div>
@@ -403,88 +403,3 @@ const HomePage = () => {
 };
 
 export default HomePage;
-// import React, { useState } from "react";
-
-
-// import background_img from "../../assets/Designer.png";
-// import Chatbox from "../../components/chatbox/index";
-// import Header from "../../components/header/index";
-// import "../../components/styles/homepage.css";
-
-
-
-
-
-// const HomePage: React.FC = () => {
- 
-//   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-
-  
-
- 
-
-//   return (
-//     <div className="relative min-h-screen flex flex-col">
-//       <div
-//         className={`fixed inset-0 z-0 transition-all duration-300 ${
-//           isMenuOpen ? "content-blur" : ""
-//         }`}
-//       >
-//         <div
-//           style={{ backgroundImage: `url(${background_img})` }}
-//           className="absolute inset-0 h-screen bg-cover bg-center bg-no-repeat"
-//         />
-//         <div className="absolute inset-0 bg-gradient-to-b " />
-//       </div>
-
-      // <Header isMenuOpen={isMenuOpen} onMenuStateChange={setIsMenuOpen} />
-
-//       <div
-//         className={`relative min-h-screen pt-44 transition-all duration-300  ${
-//           isMenuOpen ? "content-blur" : ""
-//         }`}
-//       >
-//         <div className="h-full flex flex-col justify-center px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-//           <div className="space-y-8 py-20 md:py-22">
-//             <div className="space-y-2">
-//               <p
-//                 className="text-golden tracking-widest uppercase text-xs md:text-2xl"
-//                 style={{ fontFamily: "Montserrat" }}
-//               >
-//                 Premium Travel Experience
-//               </p>
-              
-//               <h1
-//                 className="text-4xl md:text-8xl lg:text-6xl font-bold text-gray-300"
-//                 style={{
-//                 fontFamily: "Montserrat",
-//                   letterSpacing: "2px",
-//                 }}
-//               >
-//                 Discover Kerala <br />
-//                 in Luxury
-//               </h1>
-//             </div>
-//             <div className="flex flex-col gap-4 max-w-md">
-//             <a href="/login">
-//   <button
-//     className="mt-4 px-6 py-3 text-sm font-semibold text-white bg-gradient-to-r from-gray-800 to-gray-600 hover:from-gray-700 hover:to-gray-500 rounded-full shadow-md transition-transform transform hover:scale-105 focus:outline-none"
-//     style={{ fontFamily: "Montserrat", letterSpacing: "1.5px" }}
-//   >
-//     Get Started
-//   </button>
-// </a>
-
-            
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-
-//       <Chatbox isMenuOpen={isMenuOpen} />
-//     </div>
-//   );
-// };
-
-// export default HomePage;
