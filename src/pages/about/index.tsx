@@ -243,7 +243,7 @@ export default function TermsPrivacyPage() {
                 <div className="max-w-4xl mx-auto space-y-8">
                   <div className="grid md:grid-cols-2 gap-8">
                     <div className="bg-gradient-to-b from-green-50 to-white rounded-2xl p-6 border border-green-100 shadow-lg">
-                      <div className="text-4xl mb-4">🏛️</div>
+                      {/* <div className="text-4xl mb-4">🏛️</div> */}
                       <h3 className="text-lg font-bold text-gray-900 mb-3">Heritage Site Visits</h3>
                       <ul className="text-gray-600 text-sm space-y-2">
                         <li>• Advance booking required for popular monuments</li>
@@ -254,7 +254,7 @@ export default function TermsPrivacyPage() {
                     </div>
 
                     <div className="bg-gradient-to-b from-green-50 to-white rounded-2xl p-6 border border-green-100 shadow-lg">
-                      <div className="text-4xl mb-4">🌴</div>
+                      {/* <div className="text-4xl mb-4">🌴</div> */}
                       <h3 className="text-lg font-bold text-gray-900 mb-3">Backwater Tours</h3>
                       <ul className="text-gray-600 text-sm space-y-2">
                         <li>• Weather-dependent scheduling with free rescheduling</li>
@@ -265,7 +265,7 @@ export default function TermsPrivacyPage() {
                     </div>
 
                     <div className="bg-gradient-to-b from-green-50 to-white rounded-2xl p-6 border border-green-100 shadow-lg">
-                      <div className="text-4xl mb-4">⛰️</div>
+                      {/* <div className="text-4xl mb-4">⛰️</div> */}
                       <h3 className="text-lg font-bold text-gray-900 mb-3">Hill Station Trips</h3>
                       <ul className="text-gray-600 text-sm space-y-2">
                         <li>• Experienced drivers familiar with mountain roads</li>
@@ -276,7 +276,7 @@ export default function TermsPrivacyPage() {
                     </div>
 
                     <div className="bg-gradient-to-b from-green-50 to-white rounded-2xl p-6 border border-green-100 shadow-lg">
-                      <div className="text-4xl mb-4">🛶</div>
+                      {/* <div className="text-4xl mb-4">🛶</div> */}
                       <h3 className="text-lg font-bold text-gray-900 mb-3">Airport Transfers</h3>
                       <ul className="text-gray-600 text-sm space-y-2">
                         <li>• Flight tracking for delayed arrivals</li>

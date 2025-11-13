@@ -286,7 +286,8 @@ const [userInfo, setUserInfo] = useState<UserInfo>({
         time: userInfoData.time.format('HH:mm')
       },
       timestamp: new Date().toISOString(),
-      status: "pending"
+      status: "pending",
+      
     };
     
     console.log("Booking data being sent:", bookingData);
