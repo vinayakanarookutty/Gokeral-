@@ -2,6 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* Override Ant Design primary button color to green */
+.ant-btn-primary {
+  background-color: #10b981 !important;
+  border-color: #10b981 !important;
+}
+
+.ant-btn-primary:hover {
+  background-color: #059669 !important;
+  border-color: #059669 !important;
+}
+
+.ant-btn-primary:focus {
+  background-color: #10b981 !important;
+  border-color: #10b981 !important;
+}
+
+.ant-btn-primary:active {
+  background-color: #047857 !important;
+  border-color: #047857 !important;
+}
+
+.ant-btn-primary[disabled] {
+  background-color: #6ee7b7 !important;
+  border-color: #6ee7b7 !important;
+}
+
 /* Route Modal Styles */
 .route-modal .ant-modal-body {
   padding: 16px;

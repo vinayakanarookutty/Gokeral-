@@ -12,7 +12,7 @@ import DriverRegistration from "../pages/driverRegistration";
 import HomePage from "../pages/home/home";
 import { DriverProfile } from "../components/driver-profile-components/DriverProfile";
 import AboutPage from "../pages/about";
-import ContactPage from "../pages/contact";
+import ContactPage from "../pages/contact/contact";
 
 import Layout from "../components/Layout"; // Import Layout
 
